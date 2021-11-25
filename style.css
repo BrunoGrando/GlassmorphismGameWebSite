@@ -66,7 +66,7 @@ body{
     backdrop-filter: blur( 9.5px );
     -webkit-backdrop-filter: blur( 9.5px );
     border-radius: 54px;
-    border: 16px solid rgba(203, 154, 211, 0.226);
+    border: 16px solid rgba(247, 237, 248, 0.226);
 }
 .body-size .beperson h1{
     font-weight: 700;     
