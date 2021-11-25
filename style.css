@@ -103,6 +103,9 @@ body{
 
 
 /* HEADER */
+.header .heading{
+    position: relative;
+}
 .header .heading .main-game{
     display: flex;
     position: relative;
@@ -175,4 +178,36 @@ body{
     background: rgba( 255, 255, 255, 0.2 );
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
+}
+/* BANNER ASIDE */
+.header .heading .banner-aside{
+    background: rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 24px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.header .heading .banner-aside h3{
+    color: var(--fontcolor2);
+    font-weight: 700;
+    font-size:18px;
+    margin-top: 16px;
+}
+.header .heading .banner-aside p{
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 12px
+}
+.header .heading .positions{
+    position: absolute;
+    bottom: 0;
+}
+.header .heading .banner-aside .img-col-4 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 24px;
+    padding: 16px
 }
