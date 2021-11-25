@@ -4,6 +4,7 @@
     --bg-color2: #b39de7;
     --font-poppins: 'Poppins', sans-serif;
     --font-color1: #3247B9;
+    --font-color1-1: #3672E9;
     --fontcolor2: #615F5F;
     --font-color3: #E81A1A;
 }
@@ -179,6 +180,9 @@ body{
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
 }
+
+
+
 /* BANNER ASIDE */
 .header .heading .banner-aside{
     background: rgba( 255, 255, 255, 0.2 );
@@ -186,28 +190,50 @@ body{
     -webkit-backdrop-filter: blur( 20px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin-top: 24px;
-    border-radius: 16px;
+    border-radius: 24px;
     display: flex;
     flex-direction: row;
+}
+.header .heading .banner-aside .text-col-4 .note-games{
+    text-align: center;
+    position: relative;
 }
 .header .heading .banner-aside h3{
     color: var(--fontcolor2);
     font-weight: 700;
     font-size:18px;
-    margin-top: 16px;
+    margin-top: 24px;
 }
-.header .heading .banner-aside p{
+.header .heading .banner-aside h6{
     font-weight: 400;
     font-size: 12px;
     margin-right: 12px
 }
+.header .heading .banner-aside p{
+    color: #FFFF;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 2px;
+    background-color: #F2C655;
+    width: 30px;
+    border-radius: 4px;
+}
+.header .heading .banner-aside i{
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 16px;
+    color: var(--font-color1-1)
+}
+
 .header .heading .positions{
     position: absolute;
     bottom: 0;
 }
 .header .heading .banner-aside .img-col-4 img{
-    width: 120px;
-    height: 120px;
-    border-radius: 24px;
-    padding: 16px
+    width: 150px;
+    height: 150px;
+    border-radius: 42px;
+    padding: 24px;
 }
