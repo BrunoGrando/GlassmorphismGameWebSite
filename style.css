@@ -237,3 +237,62 @@ body{
     border-radius: 42px;
     padding: 24px;
 }
+
+
+/* FOOT */
+.foot .footer .selections{
+    padding-left: 100px;
+    width: 370px;
+}
+.foot .footer .selections h6{
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--fontcolor2);
+    margin: 14px 0;
+}
+.foot .footer .selections .items-selections{
+     color:rgba(54, 114, 233, 0.41)
+}
+.foot .footer .selections .items-selections a{
+    text-decoration: none;
+    color: #615F5F99;
+}
+.foot .footer .selections .items-selections a:hover{
+    color: var(--fontcolor2);
+}
+.foot .footer .banner{
+    background: rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 23%;
+    margin: 6px;
+    border-radius: 24px;
+    height: 100%;
+    margin-top: 16px;
+}
+.foot .footer .banner .img-banner{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.foot .footer .banner h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--fontcolor2);
+}
+.foot .footer .banner h6{
+    font-size: 12px;
+    color: var(--fontcolor2);
+}
+.foot .footer .banner img{
+    width: 150px;
+    height: 80px;
+    border-radius: 16px;
+}
+.foot .footer .banner .text-banner{
+    display: flex;
+    justify-content: space-between;
+    color: var(--fontcolor2);
+    font-weight: 700;
+}
